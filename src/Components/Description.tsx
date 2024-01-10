@@ -49,11 +49,11 @@ const Description = () => {
 
     <div className="bg-white  rounded-lg">
       <div className="md:flex md:items-center">
-        <div className="mb-4 md:mb-0 md:w-1/3  ">
+        <div className="mb-4 md:mb-0 md:w-1/3 mr-20  ">
           <img src={profile} alt="Image"  />
         </div>
         {/* <Photo/> */}
-        <div className="pl-20">
+        
         <section className="bg-white-50">
           <div className="mx-auto max-w-screen-xl px-4 py-4 lg:flex lg:h-screen lg:items-center">
             <div className="mx-auto max-w-xl text-center">
@@ -86,7 +86,7 @@ const Description = () => {
         </section>
         </div>
       </div>
-    </div>
+    
   )
 
 
